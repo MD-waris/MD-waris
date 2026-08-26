@@ -43,7 +43,11 @@
 ###
 
 <br clear="both">
-
-<img data-importer="snake" src="https://raw.githubusercontent.com/MD-waris/MD-waris/snake-output/snake.svg" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MD-waris/MD-waris/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MD-waris/MD-waris/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/MD-waris/MD-waris/output/github-snake.svg" />
+</picture>
+<!-- <img data-importer="snake" src="https://raw.githubusercontent.com/MD-waris/MD-waris/snake-output/snake.svg" alt="Snake animation" /> -->
 
 ###
